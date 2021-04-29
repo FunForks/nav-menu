@@ -1,0 +1,51 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 14rem;
+  border-right: 1px solid black;
+  height: 100vh;
+  background-color: #fed;
+  overflow: auto;
+  font-size: 1.1rem;
+}
+
+nav div.alias {
+  background-color: #edc;
+  padding: 0.25rem;
+}
+
+nav code {
+  font-size: 1rem;
+}
+
+nav a {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 2px #dcb outset;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #fff;
+  text-decoration: none;
+}
+
+nav a:active {
+  background-color: #cba;
+  border-style: inset;
+  outline: none;
+}
+
+nav a:visited {
+  color: #654;
+}
+
+main {
+  padding-left: 14rem;
+}
