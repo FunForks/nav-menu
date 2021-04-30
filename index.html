@@ -290,7 +290,7 @@
           </ul>
           <pre><code class="language-bash"><div><span class="hljs-comment"># Alias to switch to a different folder in the current</span>
 <span class="hljs-comment"># window</span>
-<span class="hljs-function"><span class="hljs-title">cdcode</span></span> () {
+<span class="hljs-function"><span class="hljs-title">gocode</span></span> () {
 <span class="hljs-built_in">  cd</span> <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
   code -r .
 }
@@ -345,7 +345,7 @@ EOF
     dir=<span class="hljs-variable">$dir</span><span class="hljs-string">&quot;DCITasks/&quot;</span> <span class="hljs-comment"># customize this directory path</span>
     day=$(date +<span class="hljs-string">&#x27;%y%m%d&#x27;</span>)
     mkcd <span class="hljs-string">&quot;<span class="hljs-variable">$dir</span><span class="hljs-variable">$day</span>&quot;</span>
-    np <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+    nwp <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
 }
 
 <span class="hljs-comment"># Shortcut to open a new window showing the directory</span>
