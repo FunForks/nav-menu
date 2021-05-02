@@ -24,7 +24,7 @@ The index.html file contains a \<nav> tag containing internal links to all the e
       <h1 id="making-alias-commands-for-the-terminal">
       ...
     </main>
-    
+
 Please edit the `css/styles.css` file to layout a menu bar down the left side of the page, with rules that provide visual feedback for:
 
 * Which links refer to `alias` commands
@@ -33,3 +33,11 @@ Please edit the `css/styles.css` file to layout a menu bar down the left side of
 * A link that has been visited
 
 Use `padding` to make sure that the main text is not hidden behind the menu bar.
+
+
+
+**Your final result might look something like this...**
+
+[![example layout](img/example.png)](https://dciforks.github.io/nav-menu/#exercise)
+
+... but of course, yours will be more beautiful. (You can click on the image above to visit an interactive page.)
