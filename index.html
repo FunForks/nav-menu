@@ -280,7 +280,7 @@
               folders and files
             </li>
             <li>
-              <code>devtask</code> to create a new web project in a specific
+              <code>classtask</code> to create a new web project in a specific
               task folder with today's date
             </li>
             <li>
@@ -300,6 +300,7 @@
 <span class="hljs-comment"># script.js files, and a boilerplate index.html file</span>
 <span class="hljs-function"><span class="hljs-title">nwp</span></span> (){
   mkcd <span class="hljs-string">&quot;<span class="hljs-variable">$1</span>&quot;</span>
+  git init
   mkdir css img js
   touch css/styles.css js/script.js index.html
   code -r .
@@ -328,7 +329,7 @@ EOF
 <span class="hljs-comment"># inside a subfolder with today&#x27;s date in YYMMDD format</span>
 <span class="hljs-comment"># Example: on 1 February 2003, the command...</span>
 <span class="hljs-comment">#</span>
-<span class="hljs-comment">#   devtask flex</span>
+<span class="hljs-comment">#   classtask flex</span>
 <span class="hljs-comment">#</span>
 <span class="hljs-comment"># ... will create a folder at the following location</span>
 <span class="hljs-comment"># with the following content:</span>
@@ -340,7 +341,7 @@ EOF
 <span class="hljs-comment">#                       └── js</span>
 <span class="hljs-comment">#                           └── script.js</span>
 
-<span class="hljs-function"><span class="hljs-title">devtask</span></span> () {
+<span class="hljs-function"><span class="hljs-title">classtask</span></span> () {
     dir=~
     dir=<span class="hljs-variable">$dir</span><span class="hljs-string">&quot;DCITasks/&quot;</span> <span class="hljs-comment"># customize this directory path</span>
     day=$(date +<span class="hljs-string">&#x27;%y%m%d&#x27;</span>)
