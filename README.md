@@ -38,6 +38,6 @@ Use `padding` to make sure that the main text is not hidden behind the menu bar.
 
 **Your final result might look something like this...**
 
-[![example layout](img/example.png)](https://dciforks.github.io/nav-menu/#exercise)
+[![example layout](img/example.png)](https://funforks.github.io/nav-menu/#exercise)
 
 ... but of course, yours will be more beautiful. (You can click on the image above to visit an interactive page.)
